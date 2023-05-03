@@ -1,0 +1,7 @@
+# ignore el directoria del wireframe
+wireframe/
+
+# ignore sass
+node_modules/
+package-lock.json
+package.json
