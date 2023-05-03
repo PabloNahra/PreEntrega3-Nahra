@@ -6,9 +6,14 @@
   padding: 0; }
 
 .header {
-  /* background-image: url('../images/fondo-rectangulares.jfif');  */
-  /* background-color: black !important; */
   background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); }
+  .header nav ul li {
+    display: inline-block;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Delicious Handrawn', cursive, 'Gill Sans', 'Gill Sans MT';
+    margin-right: 10px;
+    margin-left: 10px; }
 
 .header-centrado {
   display: flex;
@@ -24,19 +29,9 @@
 
 .lista-pages {
   justify-content: flex-end; }
-
-.lista-pages li a {
-  color: #ff086b;
-  text-decoration: none; }
-
-/* links de header selector etiqueta*/
-.header nav ul li {
-  display: inline-block;
-  font-size: x-large;
-  font-weight: bold;
-  font-family: 'Delicious Handrawn', cursive, 'Gill Sans', 'Gill Sans MT';
-  margin-right: 10px;
-  margin-left: 10px; }
+  .lista-pages li a {
+    color: #ff086b;
+    text-decoration: none; }
 
 /* PSEUDOCLASES*/
 .escalar:hover {
@@ -93,19 +88,17 @@
 
 .productos {
   justify-content: space-around; }
-
-.productos img {
-  max-height: 25vh;
-  max-width: 25vh;
-  margin: 5px; }
+  .productos img {
+    max-height: 25vh;
+    max-width: 25vh;
+    margin: 5px; }
 
 .artesanias {
   justify-content: space-around; }
-
-.artesanias img {
-  max-height: 50vh;
-  max-width: 75vh;
-  margin: 5px; }
+  .artesanias img {
+    max-height: 50vh;
+    max-width: 75vh;
+    margin: 5px; }
 
 /* FORMULARIO DE CONTACTO */
 .contacto-texto {
@@ -118,15 +111,13 @@
   margin: 0 auto;
   /* padding: 1rem; */
   margin-bottom: 3rem; }
-
-.formulario fieldset {
-  border: none; }
-
-.formulario legend {
-  color: var(--secundario);
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600; }
+  .formulario fieldset {
+    border: none; }
+    .formulario fieldset legend {
+      color: var(--secundario);
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 600; }
 
 .campo span {
   color: var(--rojo); }
@@ -150,14 +141,10 @@
   border: 1rem var(--negro);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 8rem;
-  width: 100%;
-  /* width: 80%; */ }
+  width: 100%; }
 
 /* FOOTER */
 .footer {
-  /* background-image: url('../images/fondo-rectangulares.jfif'); */
-  /* background-color: rgb(209, 68, 167); */
-  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
   background-color: #aa488e;
   font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   color: black;
