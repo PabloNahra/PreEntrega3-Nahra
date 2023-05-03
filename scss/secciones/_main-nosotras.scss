@@ -1,0 +1,23 @@
+.main-nosotras{
+    min-width: 100%;
+}
+
+.fondo-separador-rectangular{
+    background-image: url(../images/fondo-rectangulares.jfif);
+    display: flex;
+    min-height: 100px;
+    text-align: center;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-en-box{
+    display: flex;
+    min-height: 100px;
+    text-align: center;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+
