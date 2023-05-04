@@ -1,3 +1,6 @@
+# ignore diseños del wireframe
+wireframe/*.bmpr
+
 # ignore sass
 node_modules/
 package-lock.json
